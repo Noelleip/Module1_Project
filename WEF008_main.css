@@ -1,0 +1,420 @@
+/*Main HTML*/
+body {
+    margin: 0;
+}
+
+.layer1-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+.paraphonyikk-icon {
+    width: 20%;
+    margin: 0% 5%;
+}
+
+.layer1-buttons-container {
+    width: max-content;
+    height: max-content;
+    padding: 0px 80px 0px 0px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+
+.layer1-black {
+    background-color: black !important;
+    margin: transparent;
+    border: transparent;
+}
+
+.menu-symbol {
+    display: none;
+}
+
+.layer2-container {
+    background-image: url(./Sunset_cloud_banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Josefin Sans;
+    padding: 40px;
+
+}
+
+.layer2-container {
+    cursor: url(cursor_icon1.cur), pointer;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    width: max-content;
+    height: max-content;
+    padding: 20px 0px 20px 0px;
+}
+
+.buttons {
+    font-size: 16px;
+    color: white;
+    font-family: Josefin Sans;
+    font-weight: bold;
+    border-style: solid;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.buttons:hover {
+    text-decoration: underline solid rgb(175, 74, 180);
+}
+
+
+.btn-check:active+.btn:focus,
+.btn-check:checked+.btn:focus,
+.btn.active:focus,
+.btn.show:focus,
+.btn:active:focus {
+    box-shadow: none;
+}
+
+.btn-secondary {
+    background-color: black !important;
+    border-color: black !important;
+    font-weight: bold;
+    font-family: Josefin Sans;
+    transition: 0.5s;
+}
+
+.btn-secondary :hover {
+    text-decoration: underline solid rgb(175, 74, 180)
+}
+
+.dropdown-item.active {
+    background-color: black !important;
+
+}
+
+.dropdown-item:active,
+.dropdown-item:hover {
+    background-color: black !important;
+    text-decoration: underline solid rgb(175, 74, 180)
+}
+
+.get-premium {
+    padding: 20px 0px 20px 0px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Josefin Sans;
+}
+
+.get-premium>span {
+    text-decoration: underline solid rgb(175, 74, 180);
+    font-size: 0.75rem;
+}
+
+.just {
+    font-size: 24px;
+    padding: 20px 0px 20px 0px;
+    font-family: Josefin Sans;
+}
+
+.social-icon-container {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.social-icon {
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
+.social-icon:hover {
+    color: rgb(175, 74, 180);
+}
+
+.social-icon-container>.bi {
+    display: inline-block;
+    width: 100%;
+    background-color: black
+}
+
+.layer2-black {
+    background-color: black;
+    border-color: transparent;
+    border-radius: 30px;
+}
+
+.transparent {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 30px;
+    border-width: 3px;
+}
+
+.layer3-container {
+    background-color: white;
+    color: black;
+    font-family: Josefin Sans;
+    padding: 40px;
+}
+
+.why {
+    background-color: white;
+    font-size: 40px;
+    font-family: Helvetica;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.layer4-container {
+    padding: 20px;
+    display: flex;
+    min-width: fit-content;
+    justify-content: space-between;
+}
+
+.introduction-container {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.specific-icon {
+    max-width: 250px;
+    height: auto;
+    padding: 20px;
+}
+
+#text1 {
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    display: inline;
+    white-space: nowrap;
+}
+
+#text2 {
+    font-size: 18px;
+    width: 200px;
+    display: inline;
+    white-space: nowrap;
+}
+
+.layer5-container {
+    background-image: url("./food_01.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: transparent;
+    font-family: Josefin Sans;
+    padding: 40px;
+    filter: opacity(75%);
+    background-position-y: 30%;
+}
+
+.lifestyle-header {
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    font-family: Helvetica;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 60px;
+    white-space: nowrap;
+}
+
+.carousel-item {
+    filter: opacity(70%);
+    max-height: 400px;
+}
+
+.carousel-item:hover {
+    zoom: 75%;
+}
+
+/*Medibang Paint*/
+@media (max-width: 1000px) {
+    .layer1-container {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .layer1-buttons-container {
+        display: none;
+    }
+
+    .menu-symbol {
+        display: flex !important;
+        background-color: black;
+        color: white;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+
+
+
+    .layer4-container {
+        padding: 20px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .introduction-container {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .specific-icon {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .text-container {
+        display: grid;
+        flex-grow: 3;
+        text-align: left;
+
+    }
+}
+
+.all-cards-container {
+    display: flex;
+    justify-content: left;
+}
+
+.card {
+    margin: 5%;
+    position: static;
+}
+
+@media(max-width: 760px) {
+    .layer2-container {
+        background-image: url(./Sunset_cloud_banner.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        min-width: 760px;
+        color: white;
+        font-family: Josefin Sans;
+        padding: 40px;
+
+    }
+
+    .paraphonyikk-icon {
+        width: 30%
+    }
+
+    .button-container {
+        width: 100%;
+        height: 100%;
+        padding: 20px 0px 20px 0px;
+        display: block;
+    }
+
+    .buttons {
+        font-size: 16px;
+        color: white;
+        max-width: 150px;
+        font-family: Josefin Sans;
+        font-weight: bold;
+        border-style: solid;
+        padding: 15px 20px 15px 20px;
+        cursor: pointer;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .menu-symbol {
+        display: flex !important;
+        background-color: black;
+        color: white;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+
+    .layer4-container {
+        padding: 20px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .introduction-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 5%;
+    }
+
+    .introduction-container>i {
+        font-size: 50px !important;
+    }
+
+    .introduction-container>img {
+        width: 120px ! important;
+    }
+
+    .specific-icon {
+        width: 15%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .text-container {
+        display: grid;
+        flex-grow: 3;
+        text-align: left;
+    }
+
+}

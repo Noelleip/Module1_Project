@@ -1,0 +1,137 @@
+.header-container {
+    color: rgb(103, 52, 162);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2.5% 2.5%;
+    flex-direction: column;
+
+}
+
+.game-header {
+    margin: 2.5% 2.5%;
+}
+
+#canvas {
+    display: flex;
+    justify-content: center;
+}
+
+.p5Canvas {
+    width: 90% !important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    background-color: lightgray;
+    border: 5px rgb(103, 52, 162) dotted;
+}
+
+.p5Canvas:hover {
+    cursor: pointer;
+}
+
+.hint-container {
+    width: 60%;
+    height: auto;
+    display: flex;
+    margin: 0% 2.5%;
+    font-size: 1rem;
+    font-weight: normal;
+    flex-direction: column;
+    text-align: left;
+}
+
+.bi-exclamation-circle:hover {
+    cursor: pointer
+}
+
+.hint-points {
+    font-size: 1rem;
+}
+
+.action-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.button-style {
+    width: 10%;
+    background-color: rgb(103, 52, 162);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #d7b688;
+    border-radius: 20%;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.button-style:hover {
+    background-color: #d7b688;
+    color: rgb(103, 52, 162);
+    cursor: pointer;
+}
+
+.play-button {}
+
+.reset-button {}
+
+.all-variables-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+
+}
+
+.slider1 {
+    width: 80%;
+}
+
+.choices-container {
+    display: flex;
+    padding: 5px;
+}
+
+.form-check-container {
+    width: 50%;
+    font-size: 0.75rem;
+    border: 5px rgb(103, 52, 162) dotted
+}
+
+.form-check-label {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.form-check {
+    display: flex;
+    width: 30%
+}
+
+.variable-container {
+    width: 30%;
+    font-size: 0.75rem;
+    margin: 5px;
+    padding: 20px;
+    border: 5px rgb(103, 52, 162) dotted
+}
+
+.back-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pattern-selector {
+    display: flex;
+    justify-content: space-around;
+}
